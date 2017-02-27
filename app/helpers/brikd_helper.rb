@@ -1,0 +1,2 @@
+module BrikdHelper
+end

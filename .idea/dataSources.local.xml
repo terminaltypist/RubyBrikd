@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails Brikd: test" uuid="d43c4450-d02b-46a5-9599-39880025060f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+    <data-source name="Rails Brikd: production" uuid="ccd704bf-a33a-43d8-a2e7-11881ffaa372">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>Brikd</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dff8dfe3dfe1dfeedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+    <data-source name="Rails Brikd: development" uuid="10bc6f14-484c-41ee-aeb6-7e42bb7f40ab">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>

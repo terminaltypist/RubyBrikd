@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails Brikd: test" uuid="d43c4450-d02b-46a5-9599-39880025060f">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Brikd_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails Brikd: production" uuid="ccd704bf-a33a-43d8-a2e7-11881ffaa372">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Brikd_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails Brikd: development" uuid="10bc6f14-484c-41ee-aeb6-7e42bb7f40ab">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:Brikd_development</jdbc-url>
+    </data-source>
+  </component>
+</project>

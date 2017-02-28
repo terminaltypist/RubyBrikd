@@ -1,0 +1,17 @@
+<h1>Create an article</h1>
+
+<%-# This is a comment -%>
+<%-# form_for is a ruby plugin to assist with forms -%>
+<%-# @articles is being called from articles_controller.rb where it links this variable to DB -%>
+
+<%= form_for @article do |f| %>
+  <p>
+    <%= f.label :title %><br/>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :body %><br/>
+    <%= f.text_area :body %>
+  </p>
+
+<%= end %>

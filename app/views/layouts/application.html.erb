@@ -8,12 +8,7 @@
   </head>
 
   <body>
-  <%# This flashes a message. Example listed on articles_controller.rb%>
-  <% flash.each do |name, msg| %>
-      <ul>
-        <li><%= msg %></li>
-      </ul>
-  <% end %>
-  <%= yield %>
+    <%= render 'layouts/messages' %>
+    <%= yield %>
   </body>
 </html>

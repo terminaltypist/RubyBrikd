@@ -9,11 +9,11 @@
 
   <body>
   <%# This flashes a message. Example listed on articles_controller.rb%>
-    <%= flash.each do |name, msg| %>
-    <ul>
-      <li><%= msg %></li>
-    </ul>
-    <% end %>
+  <% flash.each do |name, msg| %>
+      <ul>
+        <li><%= msg %></li>
+      </ul>
+  <% end %>
   <%= yield %>
   </body>
 </html>

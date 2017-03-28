@@ -4,6 +4,7 @@ $navbar-default-bg: #000000;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// This belongs to the _navbar.html.erb
 #logo {
   float: left;
   font-size: 1.7em;
@@ -14,21 +15,25 @@ $navbar-default-bg: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This belongs to the _navbar.html.erb
 #logo:hover {
   color: #ff0101;
   text-decoration: none;
 }
 
+// Anything I wanted to center (may not actually be using this tag)
 .center {
   text-align: center;
 }
 
+// This belong to the large logo on the main page index.html.erb
 .jumbotron {
   background-image: asset-url('dead-battery2.jpeg');
   background-size: cover;
   height: 250px;
 }
 
+// This belongs to the large logo on the main page index.html.erb
 .jumbotron h1 {
   color: #00FF00;
   text-align: center;
@@ -38,6 +43,7 @@ $navbar-default-bg: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This belongs to the extra large buttons, so far I beleive just the two in the jumbotron index.html.erb
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #000000;
@@ -45,12 +51,25 @@ $navbar-default-bg: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This belongs to the extra large buttons, so far I believe just the two in the jumbotron index.html.erb
 .btn-xlarge:hover {
   background-color: #ff0101;
   color: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This belongs to the buttons at the bottom of show.html.erb
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+// This was added to show.html.erb so that the label "Description" wouldn't  have an abnormally large ammount of space
+.description {
+  margin-top: 0;
+}
+
+// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -58,19 +77,23 @@ footer {
   color: #777;
 }
 
+// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer a:hover {
   color: #222;
 }
 
+// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer small {
   float:left;
 }
 
+// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer ul {
   float: right;
   list-style: none;
 }
 
+// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer ul li {
   float: left;
   margin-left: 15px;

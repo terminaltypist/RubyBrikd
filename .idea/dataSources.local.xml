@@ -8,7 +8,6 @@
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <first-sync>true</first-sync>
       <user-name>Brikd</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dff8dfe3dfe1dfeedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>
     <data-source name="Rails Brikd: development" uuid="10bc6f14-484c-41ee-aeb6-7e42bb7f40ab">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />

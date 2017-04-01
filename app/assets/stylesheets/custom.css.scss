@@ -69,10 +69,32 @@ $navbar-default-bg: #000000;
   margin-top: 0;
 }
 
+// Background for every page under application.html.erb
+.container-fluid {
+  background-image: url("city1.jpg");
+  height: 100%;
+  width: 100%;
+  padding-left: -5%;
+  padding-right: -5%;
+}
+
+// This was added to index.html.erb for the articles titles
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+// This was added to index.html.erb for the articles bodies
+.article-body{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 // This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
+  margin-top: 40%;
+  padding-top: 1px;
   border-top: 1px solid #eaeaea;
   color: #777;
 }

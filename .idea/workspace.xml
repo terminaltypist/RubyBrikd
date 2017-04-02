@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b3424ac-1275-4f9c-b67f-06d222389eae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -601,12 +597,12 @@
       <workItem from="1491019934922" duration="13309000" />
       <workItem from="1491070014853" duration="681000" />
       <workItem from="1491071041917" duration="2938000" />
-      <workItem from="1491112369697" duration="7005000" />
+      <workItem from="1491112369697" duration="8132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86868000" />
+    <option name="totallyTimeSpent" value="87995000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">

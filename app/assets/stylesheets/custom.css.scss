@@ -74,8 +74,10 @@ $navbar-default-bg: #000000;
   background-image: url("city1.jpg");
   height: 100%;
   width: 100%;
-  padding-left: -5%;
-  padding-right: -5%;
+}
+
+.container {
+  background-color: #000003;
 }
 
 // This was added to index.html.erb for the articles titles

@@ -6,8 +6,9 @@ $navbar-default-bg: #000000;
 
 // This belongs to the _navbar.html.erb
 #logo {
-  float: left;
-  font-size: 1.7em;
+  float: center;
+  //float: left;
+  font-size: 3em;
   color: #00FF00;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -19,6 +20,16 @@ $navbar-default-bg: #000000;
 #logo:hover {
   color: #ff0101;
   text-decoration: none;
+}
+
+// Link for new article in _navbar.html.erb
+#mynavbarlink {
+  font-size: 3em;
+  color: #00FF00;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 // Anything I wanted to center (may not actually be using this tag)
@@ -47,6 +58,7 @@ $navbar-default-bg: #000000;
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #000000;
+  border: #00FF00;
   color: #00FF00;
   font-family: "Lucida Console", Monaco, monospace;
 }
@@ -76,6 +88,7 @@ $navbar-default-bg: #000000;
   width: 100%;
 }
 
+// The main column on each page
 .container {
   background-color: #000003;
 }
@@ -93,6 +106,15 @@ $navbar-default-bg: #000000;
   padding-bottom: 15px;
 }
 
+// Navbar class in _navbar.html.erb
+.navbar {
+  border-bottom: 1px solid #00FF00;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
 // This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer {
   margin-top: 40%;
@@ -103,7 +125,7 @@ footer {
 
 // This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
 footer a:hover {
-  color: #222;
+  color: #eaeaea;
 }
 
 // This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
@@ -115,10 +137,4 @@ footer small {
 footer ul {
   float: right;
   list-style: none;
-}
-
-// This is for the footer partial that is rendered to application.html.erb from _footer.html.erb
-footer ul li {
-  float: left;
-  margin-left: 15px;
 }

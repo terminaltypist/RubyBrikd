@@ -70,6 +70,12 @@ $navbar-default-bg: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This is the username, creation time and update time
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
 // This belongs to the buttons at the bottom of show.html.erb
 .article-actions {
   border-top: 1px solid #eaeaea;

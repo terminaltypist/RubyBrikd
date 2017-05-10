@@ -32,11 +32,39 @@ $navbar-default-bg: #000000;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+// This is the drop down items on the nav bar
+#mynavbardrop {
+  font-size: 1em;
+  color: #00FF00;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
+}
 // Anything I wanted to center (may not actually be using this tag)
 .center {
   text-align: center;
 }
 
+.mydrop {
+  font-size: 3em;
+  color: #00FF00;
+  background-color: #000000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.mydrop2 {
+  font-size: 1em;
+  color: #00FF00;
+  background-color: #000000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
+}
 // This belong to the large logo on the main page index.html.erb
 .jumbotron {
   background-image: asset-url('dead-battery2.jpeg');

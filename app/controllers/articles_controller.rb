@@ -5,6 +5,10 @@ class ArticlesController < ApplicationController
     @articles = Article.all
   end
 
+  def articles
+
+  end
+
   def new
     # This is a note
     # This variable is a new line in the Articles table
